@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="./script.js"></script>
+    <link rel="icon" href="./Images/images/Hotel.webp">
+    <link rel="stylesheet" href="./formstyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+      </head>
+  <title>SignUp Page</title>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h2>Welcome to Dallas Resort</h2>
+      </div>
+      <div class="navigation">
+        <nav>
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About Us</a>
+            </li>
+            <li>
+              <a href="#branches">Our Branches</a>
+            </li>
+            <li>
+              <a href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        </div>
+      
+        <div class="formClass">
+          <form id="form1">
+  
+            <div class="row1">
+              <label for="firstname" id="label-firstName"><b>First Name</b></label>
+              <input type="text" id="fName" placeholder="Your First Name">
+            </div>
+            <div class="row2">
+              <label for="lastname" id="label-lastName"><b>Last Name</b></label>
+              <input type="text" id="lName" placeholder="Your Last Name">
+            </div>
+            <div class="row3">
+              <label for="phone" id="label-phone"><b>Phone Number</b></label>
+              <input type="text" id="phoneNumber" placeholder="Your Phone Number">
+            </div>
+            <div class="row4">
+              <label for="email" id="label-eamil"><b>Email</b></label>
+              <input type="text" id="emailId" placeholder="Your Email Id">
+            </div>
+            <div class="row5">
+              <label for="age" id="label-age"><b>Age</b></label>
+              <input type="text" id="age" placeholder="Your Age">
+            </div>
+            <div class="row6">
+              <label for="profselect" id="label-prof">Please select your Profession</label>
+              <select name="role" id="roleSelect">
+                <option value="none">None</option>
+                <option value="student">Student</option>
+                <option value="corporate">Corporate</option>
+                <option value="self-Employee">Business</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+            
+              <div class="radio">
+                <label for="Question" id="label-ques">Do you want to receive newsletter updates from us?</label>
+            </div>
+      
+            <div class="op1">
+              <input type="checkbox" id="option-1" name="recommed">
+                <label for="option-1">Yes</label>
+            </div>
+            <div class="op2">
+              <input type="checkbox" id="option-2" name="no">
+            <label for="option-2">No</label>
+          </div>
+          
+        <div class="op3">
+          <input type="checkbox" id="option-3" name="radio-3">
+          <label for="option-3">Remind me Later</label><br>
+              </div>
+                
+      <br><button id="submitForm" type="button" onclick="formSubmit()">Submit</button>
+      <div class="last">
+        <p>
+          Already a User?<a href="LoginPage.html">Login</a>
+        </p>
+      </div>
+          </form>
+        </div>
+    </div>
+  </body>
+</html>

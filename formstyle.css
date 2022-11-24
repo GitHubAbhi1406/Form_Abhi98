@@ -1,0 +1,253 @@
+body{
+  background-color: cornsilk;
+}
+
+.container{
+  background-color: #05c46b;
+  max-width: 100%;
+  height: 1300px;
+  box-shadow: 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.heading{
+  position: relative;
+  max-width: 100%;
+  height: 50px;
+  font-family: Verdana;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 5px;
+  }
+  
+.navigation{
+  position: relative;
+  float: right;
+  top: 50px;
+  margin: 10px 10px;
+  max-width: 100%;
+  height: 30px;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: white;
+  padding: 16px 16px;
+  text-align: center;
+  font-style: normal;
+}
+
+.formClass{
+  position: relative;
+  top: 150px;
+  height: 1200px;
+}
+
+  #form1{
+    background-color: #fff;
+    max-width: 500px;
+    max-height: 1000px auto;
+    margin: 50px auto;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px;
+  }
+  
+  .row1{
+    text-align: left;
+    font-family: Verdana;
+    margin-bottom: 25px;
+  }
+  
+  .row1 label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .row1 input,
+  .row1 select,
+  .row1 textarea{
+    border: 1px solid #777;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    width: 95%;
+    font-family: Verdana;
+  }
+  
+  .row2{
+    text-align: left;
+    font-family: Verdana;
+    margin-bottom: 25px;
+  }
+  
+  .row2 label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .row2 input,
+  .row2 select,
+  .row2 textarea{
+    border: 1px solid #777;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    width: 95%;
+    font-family: Verdana;
+  }
+  
+  .row3{
+    text-align: left;
+    font-family: Verdana;
+    margin-bottom: 25px;
+  }
+  
+  .row3 label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .row3 input,
+  .row3 select,
+  .row3 textarea{
+    border: 1px solid #777;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    width: 95%;
+    font-family: Verdana
+  }
+  
+  .row4{
+    text-align: left;
+    font-family: Verdana;
+    margin-bottom: 25px;
+  }
+  
+  .row4 label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .row4 input,
+  .row4 select,
+  .row4 textarea{
+    border: 1px solid #777;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    width: 95%;
+    font-family: Verdana;
+  }
+  
+  .row5{
+    text-align: left;
+    font-family: Verdana;
+    margin-bottom: 25px;
+  }
+  
+  .row5 label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .row5 input,
+  .row5 select,
+  .row5 textarea{
+    border: 1px solid #777;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    width: 95%;
+    font-family: Verdana;
+  }
+  
+  .row6{
+    text-align: left;
+    font-family: Verdana;
+    margin-bottom: 25px;
+  }
+  
+  .row6 label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .row6 input,
+  .row6 select,
+  .row6 textarea{
+    border: 1px solid #777;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    width: 95%;
+    font-family: Verdana;
+  }
+  
+  .radio{
+    font-family: Verdana;
+    width: auto;
+    display: block;
+    margin-bottom: 10 px; 
+  }
+  
+  .radio label{
+    display: block;
+    margin-bottom: 10 px;
+  }
+  
+  .op1{
+    font-family: Verdana;
+  }
+  .op1 input[type="radio"]{
+    display: inline-block;
+    width: auto;
+  }
+  
+  .op2{
+    font-family: Verdana;
+  }
+  .op2 input[type="radio"]{
+    display: inline-block;
+    width: auto;
+  }
+  
+  .op3{
+    font-family: Verdana;
+  }
+  .op3 input[type="radio"]{
+    display: inline-block;
+    width: auto;
+  }
+  
+  button{
+    font-family: Verdana;
+    border: 2px solid #777;
+    border-radius: 5px;
+    background-color: #05c46b;
+    font-size: 20px;
+    display: block;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    padding: 15px;
+  }
+
+  .last{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
